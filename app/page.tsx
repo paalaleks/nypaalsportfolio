@@ -30,11 +30,9 @@ export default async function Home() {
                 10th Oct 2022{" "}
               </time>
 
-              <a href="#">
-                <h3 className="mt-0.5 text-lg text-gray-900">
-                  How to position your furniture for positivity
-                </h3>
-              </a>
+              <h3 className="mt-0.5 text-lg text-gray-900">
+                How to position your furniture for positivity
+              </h3>
 
               <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
