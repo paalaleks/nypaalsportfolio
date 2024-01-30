@@ -13,11 +13,6 @@ export async function getProjects(): Promise<Project[]> {
         url,
         content
     }`,
-    {
-      next: {
-        revalidate: 3600,
-      },
-    },
   );
 }
 
@@ -32,11 +27,5 @@ export async function getProject(slug: string): Promise<Project> {
         url,
         content
     }`,
-    {
-      slug,
-      next: {
-        revalidate: 3600,
-      },
-    },
   );
 }

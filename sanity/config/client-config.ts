@@ -1,6 +1,6 @@
 const config = {
   projectId: "ya25pubf",
-  dataset: "production",
+  dataset: "paals-portfolio",
   apiVersion: "2023-01-27",
 };
 

@@ -5,7 +5,7 @@ import schemas from "./sanity/schemas";
 
 const config = defineConfig({
   projectId: "ya25pubf",
-  dataset: "production",
+  dataset: "paals-portfolio",
   title: "Paal's portfolio",
   apiVersion: "2023-01-27",
   basePath: "/admin",
