@@ -49,16 +49,3 @@ export default async function Home() {
     </main>
   );
 }
-
-// <Link href={`/projects/${project.slug}`} key={project._id}>
-// {project.image && (
-//   <Image
-//     src={project.image}
-//     alt={project.name}
-//     width={300}
-//     height={200}
-//     className="w-full h-48 object-cover"
-//   />
-// )}
-// <h4 className="leading-6">{project.name}</h4>
-// </Link>
