@@ -27,5 +27,6 @@ export async function getProject(slug: string): Promise<Project> {
         url,
         content
     }`,
+    { slug },
   );
 }
